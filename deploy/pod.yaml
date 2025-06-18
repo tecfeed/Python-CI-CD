@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: todo-app
+spec:
+  containers:
+  - name: todo-app
+    image: saurabh6870/python-todo-app:replaceImageTag
+    ports:
+    - containerPort: 8000
