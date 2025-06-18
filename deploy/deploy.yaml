@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todo
-        image: saurabh6870/python-todo-app:17
+        image: saurabh6870/python-todo-app:18
         ports:
         - containerPort: 8000
